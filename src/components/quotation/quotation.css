@@ -1,0 +1,308 @@
+.quotation__container {
+    grid-template-columns: repeat(1, max-content);
+    justify-content: center;
+    column-gap: 6rem;
+    padding-bottom: 3rem;
+    margin-top: var(--mb-2);
+}
+
+.quotation__form {
+    width: 600px;
+    /* padding: 20px;
+    border: 1px solid #ccc; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: flex; */
+    /* width: 600px; */
+    /* padding: 20px; */
+}
+
+.quotation__form-div{
+    position: relative;
+    margin-bottom: 10px;
+    height: 4rem;
+}
+.quotation__form-label {
+    /* display: block;
+    margin-bottom: 10px;
+    margin-top: 10px; */
+    color: black;
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.quotation__form-labelselect {
+    display: inline-block;
+    width: 600px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    color: black;
+}
+
+.quotation__form-label2 {
+    margin-left: 20px;
+}
+
+.quotation__form-input[type="number"],
+.quotation__form-input[type="custName"],
+.quotation__form-input[type="checkbox"],
+.quotation__form-input[type="email"],
+.quotation__form-input[type="tel"],
+.quotation__form-input[type="totalCost"],
+.quotation__form-button {
+    /* width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; */
+
+    /* position: absolute; */
+    width: 50%;
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* box-sizing: border-box; */
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background: none;
+    color: var(--text-color);
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+.quotation__form-select {
+    margin-right: 30px;
+    margin-left: 180px;
+}
+
+.quotation__form-buttonCalculate {
+    background-color: hsl(139, 61%, 64%);
+    width: 150px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.quotation__form-button {
+    background-color: hsl(139, 61%, 64%);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: 480px;
+}
+
+.quotation__note-title{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: auto;
+    font-size: 14px;
+    justify-self: center;
+}
+
+.quotation__form-button:hover {
+    background-color: hsl(139, 49%, 64%);
+}
+
+.quotation__form-buttonCalculate:hover {
+    background-color: hsl(139, 49%, 64%);
+}
+
+.quotation__recaptcha-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    margin-left: 30px;
+    height: 100px;          /* Full viewport height */
+    width: 100%;            /* Full width */
+  }
+  
+  .quotation__recaptcha {
+    width: auto;
+    margin: 0 auto;
+  }
+
+
+/*======= BREAKPOINTS ========*/
+/*FOR LARGE DEVICE*/
+@media screen and (max-width: 992px) {
+    .quotation__container {
+        /* grid-template-columns: repeat(3, 218px);
+        justify-content: center;
+        align-items: center; */
+        column-gap: 3rem;
+    }
+
+}
+
+/*for medium devices*/
+@media screen and (max-width: 768px) {
+    .quotation__container {
+        /* grid-template-columns: repeat(2, 1fr); */
+        justify-content: center;
+        /* align-items: center; */
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    /* .products__content {
+        padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+    } */
+    .quotation__form{
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .products__container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quotation__form-select {
+        /* margin-right: 30px; */
+        margin-left: 180px;
+    }
+
+    .quotation__form {
+        /* width: 600px;
+        padding: 20px;
+        border: 1px solid #ccc; */
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: flex; */
+        width: 400px;
+        padding: 20px;
+    }
+
+    /* .products__content{
+        padding-right: 6rem;
+      } */
+
+    .quotation__form-input[type="number"],
+    .quotation__form-input[type="custName"],
+    .quotation__form-input[type="checkbox"],
+    .quotation__form-input[type="email"],
+    .quotation__form-input[type="tel"],
+    .quotation__form-input[type="totalCost"],
+    .quotation__form-button {
+        width: 30%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    .quotation__form-label {
+        /* display: block;
+        margin-bottom: 10px;
+        margin-top: 10px; */
+        color: black;
+        display: inline-block;
+        width: 130px;
+        margin-bottom: 30px;
+        /* margin-right: 30px; */
+    }
+
+    .quotation__form-labelselect {
+        display: inline-block;
+        width: 700px;
+        margin-bottom: 30px;
+        /* margin-right: 20px; */
+        color: black;
+    }
+
+    .quotation__form-select {
+        /* margin-right: 30px; */
+        margin-left: 10px;
+    }
+
+    .quotation__form-button {
+        width: 265px;
+    }
+
+    .quotation__form-buttonCalculate {
+        width: 130px;
+    }
+    
+}
+
+/*for small devices*/
+@media screen and (max-width: 350px) {
+    .products__container {
+        grid-template-columns: 1fr;
+    }
+
+    .quotation__form {
+        /* width: 600px;
+        padding: 20px;
+        border: 1px solid #ccc; */
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: flex; */
+        width: 300px;
+        padding: 10px;
+    }
+
+    /* .products__content{
+        padding-right: 6rem;
+      } */
+
+    .quotation__form-input[type="number"],
+    .quotation__form-input[type="checkbox"],
+    .quotation__form-input[type="custName"],
+    .quotation__form-input[type="email"],
+    .quotation__form-input[type="tel"],
+    .quotation__form-input[type="totalCost"],
+    .quotation__form-button {
+        width: 25%;
+        /* padding: 10px; */
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    .quotation__form-label {
+        /* display: block;
+        margin-bottom: 10px;
+        margin-top: 10px; */
+        color: black;
+        display: inline-block;
+        width: 100px;
+        margin-bottom: 30px;
+        /* margin-right: 30px; */
+    }
+
+    .quotation__form-labelselect {
+        display: inline-block;
+        width: 400px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+        color: black;
+    }
+
+    .quotation__form-select {
+        /* margin-right: 30px; */
+        margin-left: 10px;
+    }
+
+    .quotation__form-button {
+        width: 200px;
+        top: 100px;
+    }
+
+    .quotation__form-buttonCalculate {
+        width: 100px;
+    }
+
+    .quotation__recaptcha{
+        width: auto;
+
+    }    
+}
