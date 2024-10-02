@@ -360,7 +360,7 @@ const Quotation = () => {
                             onChange={(e) => setPhone(e.target.value)} required
                         />
 
-                        <div className="quotation__form-input">
+                        <div className="quotation__form-div">
                             <ReCAPTCHA
                                 sitekey="6LdrVVQqAAAAALPwND0ORcomykJCKKMSoniK-TSO"
                                 onChange={onRecaptchaChange}
