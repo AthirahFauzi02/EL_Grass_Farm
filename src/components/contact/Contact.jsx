@@ -107,6 +107,7 @@ const Contact = () => {
               <ReCAPTCHA
                 sitekey="6LdrVVQqAAAAALPwND0ORcomykJCKKMSoniK-TSO"
                 onChange={onRecaptchaChange}
+                required
               />
             </div>
 

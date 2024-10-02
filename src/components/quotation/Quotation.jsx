@@ -365,6 +365,7 @@ const Quotation = () => {
                                 sitekey="6LdrVVQqAAAAALPwND0ORcomykJCKKMSoniK-TSO"
                                 onChange={onRecaptchaChange}
                                 className="quotation__recaptcha"
+                                required
                             />
                         </div>
                     </div>
