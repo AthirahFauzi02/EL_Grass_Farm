@@ -151,7 +151,7 @@ const Quotation = () => {
             alert("Please verify the reCAPTCHA.");
             return;
         }
-        
+
         handleCalculate();
         generatePDF();
 
@@ -360,7 +360,7 @@ const Quotation = () => {
                             onChange={(e) => setPhone(e.target.value)} required
                         />
 
-                        <div className="quotation__recaptcha-container">
+                        <div className="quotation__form-input">
                             <ReCAPTCHA
                                 sitekey="6LdrVVQqAAAAALPwND0ORcomykJCKKMSoniK-TSO"
                                 onChange={onRecaptchaChange}
