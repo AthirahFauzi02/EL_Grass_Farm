@@ -145,14 +145,15 @@ const Quotation = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        handleCalculate();
-        generatePDF();
 
         // Check if reCAPTCHA is verified
         if (!recaptchaToken) {
             alert("Please verify the reCAPTCHA.");
             return;
         }
+        
+        handleCalculate();
+        generatePDF();
 
         // generatePDF();
 
