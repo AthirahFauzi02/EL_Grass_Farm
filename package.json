@@ -1,5 +1,5 @@
 {
-  "homepage": "https://elgrassfarm.site",
+  "homepage": "https://github.com/AthirahFauzi02/EL_Grass_Farm",
   "name": "zeqes",
   "version": "0.1.0",
   "private": true,
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.0",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   },
   "scripts": {
     "predeploy": "npm run build",
