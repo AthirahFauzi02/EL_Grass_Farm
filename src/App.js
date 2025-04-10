@@ -8,6 +8,11 @@ import Quotation from './components/quotation/Quotation';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
+import { BrowserRouter } from 'react-router-dom';
+
+<BrowserRouter basename="/your-repo-name">
+  <App />
+</BrowserRouter>
 
 const App = () => {
     return (
