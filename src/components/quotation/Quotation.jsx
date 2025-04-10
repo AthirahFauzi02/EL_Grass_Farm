@@ -117,6 +117,8 @@ const Quotation = () => {
             }
         });
 
+        //testing
+
         doc.autoTable(tableColumn, tableRows, { startY: 77 , headStyles :{fillColor : [0, 0, 0]}});
 
         // Add total cost
@@ -365,6 +367,7 @@ const Quotation = () => {
                             <ReCAPTCHA
                                 sitekey="6LdrVVQqAAAAALPwND0ORcomykJCKKMSoniK-TSO"
                                 onChange={onRecaptchaChange}
+                                // className="quotation__recaptcha"
                             />
                     </div>
                 
