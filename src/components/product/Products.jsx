@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./products.css";
-import rumput1 from '/Users/athirahahmadfauzi/Documents/IMPORTANT DOCUMENT/Zeqes-Landscape/zeqes/src/assets/rumput1.jpeg';
-import rumput2 from '/Users/athirahahmadfauzi/Documents/IMPORTANT DOCUMENT/Zeqes-Landscape/zeqes/src/assets/rumput2.jpeg';
-import rumput3 from '/Users/athirahahmadfauzi/Documents/IMPORTANT DOCUMENT/Zeqes-Landscape/zeqes/src/assets/rumput3.jpeg';
+// import rumput1 from '/Users/athirahahmadfauzi/Documents/IMPORTANT DOCUMENT/Zeqes-Landscape/zeqes/src/assets/rumput1.jpeg';
+import rumput2 from '../../assets/rumput2.jpeg';
+import rumput3 from '../../assets/rumput3.jpeg';
+import rumput1 from '../../assets/rumput1.jpeg';
 
 const Products = () => {
     const [toggleState, setToggleState] = useState(0);
