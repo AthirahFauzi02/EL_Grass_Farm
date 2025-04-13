@@ -10,6 +10,7 @@ import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 // import { BrowserRouter } from 'react-router-dom';
 
+
 const App = () => {
     return (
         <>

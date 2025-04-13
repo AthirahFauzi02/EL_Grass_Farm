@@ -105,7 +105,7 @@ const Contact = () => {
 
             <div className="contact__form-div">
               <ReCAPTCHA
-                sitekey="6LdrVVQqAAAAALPwND0ORcomykJCKKMSoniK-TSO"
+                sitekey="6LeXdxYrAAAAAHvbjWYhMycwUm-7-AXk_bpOLyS8"
                 onChange={onRecaptchaChange}
                 required
               />
