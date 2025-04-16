@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/AthirahFauzi02/EL_Grass_Farm/static/css/main.9a194fcc.css",
-    "main.js": "/AthirahFauzi02/EL_Grass_Farm/static/js/main.3e959b8f.js",
-    "static/js/239.b947969c.chunk.js": "/AthirahFauzi02/EL_Grass_Farm/static/js/239.b947969c.chunk.js",
-    "static/js/213.4560ee4b.chunk.js": "/AthirahFauzi02/EL_Grass_Farm/static/js/213.4560ee4b.chunk.js",
-    "static/js/732.95fad53d.chunk.js": "/AthirahFauzi02/EL_Grass_Farm/static/js/732.95fad53d.chunk.js",
-    "static/js/453.a3ca29fa.chunk.js": "/AthirahFauzi02/EL_Grass_Farm/static/js/453.a3ca29fa.chunk.js",
-    "static/media/lawn-8083423.jpg": "/AthirahFauzi02/EL_Grass_Farm/static/media/lawn-8083423.ab108ad49633531a4fdc.jpg",
-    "static/media/rumput1.jpeg": "/AthirahFauzi02/EL_Grass_Farm/static/media/rumput1.6702780180eef29108ec.jpeg",
-    "static/media/rumput3.jpeg": "/AthirahFauzi02/EL_Grass_Farm/static/media/rumput3.5cc7e9833feb5fcb18ae.jpeg",
-    "static/media/rumput2.jpeg": "/AthirahFauzi02/EL_Grass_Farm/static/media/rumput2.3968bd8d297524ff05ef.jpeg",
-    "index.html": "/AthirahFauzi02/EL_Grass_Farm/index.html",
-    "main.9a194fcc.css.map": "/AthirahFauzi02/EL_Grass_Farm/static/css/main.9a194fcc.css.map",
-    "main.3e959b8f.js.map": "/AthirahFauzi02/EL_Grass_Farm/static/js/main.3e959b8f.js.map",
-    "239.b947969c.chunk.js.map": "/AthirahFauzi02/EL_Grass_Farm/static/js/239.b947969c.chunk.js.map",
-    "213.4560ee4b.chunk.js.map": "/AthirahFauzi02/EL_Grass_Farm/static/js/213.4560ee4b.chunk.js.map",
-    "732.95fad53d.chunk.js.map": "/AthirahFauzi02/EL_Grass_Farm/static/js/732.95fad53d.chunk.js.map",
-    "453.a3ca29fa.chunk.js.map": "/AthirahFauzi02/EL_Grass_Farm/static/js/453.a3ca29fa.chunk.js.map"
+    "main.css": "/EL_Grass_Farm/static/css/main.85b6891a.css",
+    "main.js": "/EL_Grass_Farm/static/js/main.5ddb148c.js",
+    "static/js/239.b947969c.chunk.js": "/EL_Grass_Farm/static/js/239.b947969c.chunk.js",
+    "static/js/213.4560ee4b.chunk.js": "/EL_Grass_Farm/static/js/213.4560ee4b.chunk.js",
+    "static/js/732.95fad53d.chunk.js": "/EL_Grass_Farm/static/js/732.95fad53d.chunk.js",
+    "static/js/453.a3ca29fa.chunk.js": "/EL_Grass_Farm/static/js/453.a3ca29fa.chunk.js",
+    "static/media/lawn-8083423.jpg": "/EL_Grass_Farm/static/media/lawn-8083423.ab108ad49633531a4fdc.jpg",
+    "static/media/rumput1.jpeg": "/EL_Grass_Farm/static/media/rumput1.6702780180eef29108ec.jpeg",
+    "static/media/rumput3.jpeg": "/EL_Grass_Farm/static/media/rumput3.5cc7e9833feb5fcb18ae.jpeg",
+    "static/media/rumput2.jpeg": "/EL_Grass_Farm/static/media/rumput2.3968bd8d297524ff05ef.jpeg",
+    "index.html": "/EL_Grass_Farm/index.html",
+    "main.85b6891a.css.map": "/EL_Grass_Farm/static/css/main.85b6891a.css.map",
+    "main.5ddb148c.js.map": "/EL_Grass_Farm/static/js/main.5ddb148c.js.map",
+    "239.b947969c.chunk.js.map": "/EL_Grass_Farm/static/js/239.b947969c.chunk.js.map",
+    "213.4560ee4b.chunk.js.map": "/EL_Grass_Farm/static/js/213.4560ee4b.chunk.js.map",
+    "732.95fad53d.chunk.js.map": "/EL_Grass_Farm/static/js/732.95fad53d.chunk.js.map",
+    "453.a3ca29fa.chunk.js.map": "/EL_Grass_Farm/static/js/453.a3ca29fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a194fcc.css",
-    "static/js/main.3e959b8f.js"
+    "static/css/main.85b6891a.css",
+    "static/js/main.5ddb148c.js"
   ]
 }
